@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="RoutesApp">
+<head>
+	<title>Route Routing MF Exercise</title>
+	<link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+		<h1 style="text-align:center;">Route Routing Exercise</h1>
+		<h2 style="text-align:center;">Two Routes in the U.S.</h2><br>
+
+		<div class="container" style="text-align:center;">
+
+		<a class="btn btn-primary" href="/#!/routeCtrl">Highway 40</a>
+		<a class="btn btn-primary" href="/#!/routeCtrl2">Highway 1</a>
+		<div ng-view>
+		 <!-- PARTIALS -->
+		</div>
+
+		</div> <!-- CONTAINER -->
+
+
+		<!-- <div ng-controller>
+		 This would be for if you wanted a navbar to stay in the page for example
+		</div> -->
+
+	<script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/routeCtrl.js"></script>
+    <script src="app/controllers/routeCtrl2.js"></script>
+</body>
+</html>
